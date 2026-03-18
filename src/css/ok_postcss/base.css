@@ -1,0 +1,69 @@
+/* base.css */
+
+/* ============================================ */
+/* ============= variables ==================== */
+/* ============================================ */
+
+:root {
+  /* color */
+  --wite-zero: #FFF;
+  --black-zero: #000;
+}
+
+/* ============================================ */
+/* ================ global ==================== */
+/* ============================================ */
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+.body-reset {
+  min-width: 320px;
+  font-family: arial, sans-serif;
+  background-color: rgb(235, 207, 175);
+  user-select: none;
+}
+
+/* ============================================ */
+/* ================ general =================== */
+/* ============================================ */
+
+/* = container = */
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
+/* = all = */
+
+.img-max {
+  max-width: 100%;
+}
+
+.link-reset {
+  color: inherit;
+  text-decoration: none;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.btn-reset {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}

@@ -1,0 +1,61 @@
+/* ----------------- */
+/* --- media.css --- */
+/* ----------------- */
+
+/* 1 - 575 */
+
+@media (max-width: 575px) {
+  .game-box__wrapper {
+    padding: 20px 30px 20px;
+  }
+}
+
+/* 2 - 499 */
+
+@media (max-width: 499px) {
+  .game-box__wrapper {
+    padding: 20px 10px 20px;
+  }
+
+  .game-box__field {
+    padding: 15px;
+  }
+
+  .game-box__cube-wrap {
+    width: 45px;
+    height: 45px;
+  }
+
+  .game-box__cube-number {
+    font-size: 20px;
+  }
+
+  .game-btn {
+    padding: 6px 20px;
+  }
+}
+
+/* 3 - 439 */
+
+@media (max-width: 439px) {
+  .game-box__wrapper {
+    padding: 20px 5px 20px;
+  }
+
+  .game-box__field {
+    padding: 10px;
+  }
+
+  .game-box__cube-wrap {
+    width: 40px;
+    height: 40px;
+  }
+
+  .game-box__cube-number {
+    font-size: 18px;
+  }
+
+  .game-btn {
+    padding: 6px 10px;
+  }
+}
